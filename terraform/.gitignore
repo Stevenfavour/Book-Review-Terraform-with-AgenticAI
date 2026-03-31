@@ -1,0 +1,5 @@
+# Ignore sensitive Terraform variable files
+secrets.auto.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/

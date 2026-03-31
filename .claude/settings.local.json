@@ -1,0 +1,17 @@
+{
+  "env": {
+    "AWS_PROFILE": "default",
+    "AWS_REGION": "eu-north-1"
+  },
+  "enabledMcpjsonServers": [
+    "terraform",
+    "aws",
+    "Azure MCP Server"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(open:*)"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+# Global gitignore for the repository
+# OS generated files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform state files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.secrets.tfvars
+.secrets.auto.tfvars
+.terraform.lock.hcl
+
+# Sensitive env files
+.env
+.env*
+
+# IDE / editor files
+.idea/
+.vscode/
+
+# Ignore secret keys
+.ssh/
+azure_key
+id_rsa
+*.pem
