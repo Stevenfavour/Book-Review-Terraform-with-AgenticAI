@@ -4,7 +4,7 @@
 
 **Book Review App** is a modern, full-stack **three-tier web application** that allows users to browse books, read reviews, and submit their own. It demonstrates clean separation of concerns between frontend and backend, and is ideal for hands-on DevOps and cloud deployment practices.
 
-# Book Review App: Production Azure Deployment (Central India)
+# Book Review App: Production Azure Deployment
 
 ## 🎯 Project Goal
 [cite_start]Deploy a high-availability, three-tier web application (Next.js, Node.js, MySQL) using Terraform on Azure with strict network isolation and load balancing.
